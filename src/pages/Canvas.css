@@ -1,0 +1,63 @@
+canvas{
+    border: 1px solid black;
+}
+.canvasWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.optionsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    border-radius: 10px;
+    background: rgb(208, 207, 207);
+    padding: 1rem;
+    margin: 1rem;  
+    font-size: 1.25rem;  
+}
+.generateButton{
+    border-radius: 5px;
+    background-color: rgb(9, 136, 0);
+    padding: 0.2rem;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+.generateButton:hover{
+    background-color: rgb(16, 190, 0);
+}
+.optionWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.optionLabel{
+    font-weight: bold;
+    padding: 0.25rem;
+}
+.optionLabel > select{
+    padding-left: 0.2rem;
+    margin-left: 0.2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background: white;
+    color: rgb(0,117,255);
+}
+#checkBox{
+    padding-left: 0.2rem;
+    margin-left: 0.2rem;
+    border-radius: 5px;
+    background: red;
+    color: rgb(0,117,255);
+}
+.canvasContianer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Takes full height of the view port */
+}
